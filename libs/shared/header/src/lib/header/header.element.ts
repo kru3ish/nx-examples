@@ -44,7 +44,7 @@ export class HeaderElement extends HTMLElement {
     const homeLink = document.createElement('a');
     const homeLinkText = document.createElement('h2');
     homeLink.href = '/';
-    homeLinkText.textContent = 'Nx Store';
+    homeLinkText.textContent = 'Nx Store v2 - Updated Header';
     homeLink.appendChild(homeLinkText);
     leftSide.appendChild(homeLink);
 
